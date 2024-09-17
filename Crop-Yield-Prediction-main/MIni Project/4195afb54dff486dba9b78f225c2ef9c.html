@@ -1,0 +1,2062 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>e010f7894fc44a4b88e174a4d8e0cd52</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="a41ca999-98cd-4f8a-9c7e-5fb33d4e737b" class="cell code"
+data-execution_count="25">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># importing necessary libraries </span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span></code></pre></div>
+</div>
+<div id="b9cc351a-4424-45dd-8367-5f86648d76ab" class="cell code"
+data-execution_count="2">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># loading the dataset</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>crop_data<span class="op">=</span>pd.read_csv(<span class="st">&quot;OneHotEncoded_Yield_df.csv&quot;</span>)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>crop_data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="2">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Area</th>
+      <th>Item</th>
+      <th>Year</th>
+      <th>hg/ha_yield</th>
+      <th>average_rain_fall_mm_per_year</th>
+      <th>pesticides_tonnes</th>
+      <th>avg_temp</th>
+      <th>New_Area</th>
+      <th>New_Item</th>
+      <th>0</th>
+      <th>...</th>
+      <th>101</th>
+      <th>102</th>
+      <th>103</th>
+      <th>104</th>
+      <th>105</th>
+      <th>106</th>
+      <th>107</th>
+      <th>108</th>
+      <th>109</th>
+      <th>110</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Albania</td>
+      <td>Maize</td>
+      <td>1990</td>
+      <td>36613</td>
+      <td>1485</td>
+      <td>121.00</td>
+      <td>16.37</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Albania</td>
+      <td>Potatoes</td>
+      <td>1990</td>
+      <td>66667</td>
+      <td>1485</td>
+      <td>121.00</td>
+      <td>16.37</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Albania</td>
+      <td>Rice, paddy</td>
+      <td>1990</td>
+      <td>23333</td>
+      <td>1485</td>
+      <td>121.00</td>
+      <td>16.37</td>
+      <td>0</td>
+      <td>4</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Albania</td>
+      <td>Sorghum</td>
+      <td>1990</td>
+      <td>12500</td>
+      <td>1485</td>
+      <td>121.00</td>
+      <td>16.37</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Albania</td>
+      <td>Soybeans</td>
+      <td>1990</td>
+      <td>7000</td>
+      <td>1485</td>
+      <td>121.00</td>
+      <td>16.37</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>28237</th>
+      <td>Zimbabwe</td>
+      <td>Rice, paddy</td>
+      <td>2013</td>
+      <td>22581</td>
+      <td>657</td>
+      <td>2550.07</td>
+      <td>19.76</td>
+      <td>100</td>
+      <td>4</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>28238</th>
+      <td>Zimbabwe</td>
+      <td>Sorghum</td>
+      <td>2013</td>
+      <td>3066</td>
+      <td>657</td>
+      <td>2550.07</td>
+      <td>19.76</td>
+      <td>100</td>
+      <td>5</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>28239</th>
+      <td>Zimbabwe</td>
+      <td>Soybeans</td>
+      <td>2013</td>
+      <td>13142</td>
+      <td>657</td>
+      <td>2550.07</td>
+      <td>19.76</td>
+      <td>100</td>
+      <td>6</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>28240</th>
+      <td>Zimbabwe</td>
+      <td>Sweet potatoes</td>
+      <td>2013</td>
+      <td>22222</td>
+      <td>657</td>
+      <td>2550.07</td>
+      <td>19.76</td>
+      <td>100</td>
+      <td>7</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>28241</th>
+      <td>Zimbabwe</td>
+      <td>Wheat</td>
+      <td>2013</td>
+      <td>22888</td>
+      <td>657</td>
+      <td>2550.07</td>
+      <td>19.76</td>
+      <td>100</td>
+      <td>8</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>28242 rows × 120 columns</p>
+</div>
+</div>
+</div>
+<div id="5d7dc09e-d143-4320-ac2e-035b24f070df" class="cell code"
+data-execution_count="3">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>crop_data.shape</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">#rows X columns</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<pre><code>(28242, 120)</code></pre>
+</div>
+</div>
+<div id="a974a120-bc20-4918-a459-35221626313d" class="cell code"
+data-execution_count="4">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># dataset columns</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>crop_data.columns</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<pre><code>Index([&#39;Area&#39;, &#39;Item&#39;, &#39;Year&#39;, &#39;hg/ha_yield&#39;, &#39;average_rain_fall_mm_per_year&#39;,
+       &#39;pesticides_tonnes&#39;, &#39;avg_temp&#39;, &#39;New_Area&#39;, &#39;New_Item&#39;, &#39;0&#39;,
+       ...
+       &#39;101&#39;, &#39;102&#39;, &#39;103&#39;, &#39;104&#39;, &#39;105&#39;, &#39;106&#39;, &#39;107&#39;, &#39;108&#39;, &#39;109&#39;, &#39;110&#39;],
+      dtype=&#39;object&#39;, length=120)</code></pre>
+</div>
+</div>
+<div id="65ed147b-bfd2-47b0-9253-354b27ef423f" class="cell code"
+data-execution_count="5">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># statistical inference of the dataset</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>crop_data.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Year</th>
+      <th>hg/ha_yield</th>
+      <th>average_rain_fall_mm_per_year</th>
+      <th>pesticides_tonnes</th>
+      <th>avg_temp</th>
+      <th>New_Area</th>
+      <th>New_Item</th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>...</th>
+      <th>101</th>
+      <th>102</th>
+      <th>103</th>
+      <th>104</th>
+      <th>105</th>
+      <th>106</th>
+      <th>107</th>
+      <th>108</th>
+      <th>109</th>
+      <th>110</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>28242.000000</td>
+      <td>28242.000000</td>
+      <td>28242.00000</td>
+      <td>28242.000000</td>
+      <td>28242.000000</td>
+      <td>28242.000000</td>
+      <td>28242.000000</td>
+      <td>28242.000000</td>
+      <td>28242.000000</td>
+      <td>28242.000000</td>
+      <td>...</td>
+      <td>28242.00000</td>
+      <td>28242.000000</td>
+      <td>28242.000000</td>
+      <td>28242.000000</td>
+      <td>28242.000000</td>
+      <td>28242.000000</td>
+      <td>28242.000000</td>
+      <td>28242.000000</td>
+      <td>28242.000000</td>
+      <td>28242.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>2001.544296</td>
+      <td>77053.332094</td>
+      <td>1149.05598</td>
+      <td>37076.909344</td>
+      <td>20.542627</td>
+      <td>46.494724</td>
+      <td>4.420898</td>
+      <td>0.003505</td>
+      <td>0.004037</td>
+      <td>0.005807</td>
+      <td>...</td>
+      <td>0.07241</td>
+      <td>0.145917</td>
+      <td>0.019687</td>
+      <td>0.151406</td>
+      <td>0.119963</td>
+      <td>0.107606</td>
+      <td>0.114121</td>
+      <td>0.102330</td>
+      <td>0.136570</td>
+      <td>0.029991</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>7.051905</td>
+      <td>84956.612897</td>
+      <td>709.81215</td>
+      <td>59958.784665</td>
+      <td>6.312051</td>
+      <td>26.813405</td>
+      <td>2.635337</td>
+      <td>0.059104</td>
+      <td>0.063407</td>
+      <td>0.075983</td>
+      <td>...</td>
+      <td>0.25917</td>
+      <td>0.353030</td>
+      <td>0.138925</td>
+      <td>0.358450</td>
+      <td>0.324924</td>
+      <td>0.309887</td>
+      <td>0.317964</td>
+      <td>0.303087</td>
+      <td>0.343399</td>
+      <td>0.170565</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>1990.000000</td>
+      <td>50.000000</td>
+      <td>51.00000</td>
+      <td>0.040000</td>
+      <td>1.300000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>...</td>
+      <td>0.00000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>1995.000000</td>
+      <td>19919.250000</td>
+      <td>593.00000</td>
+      <td>1702.000000</td>
+      <td>16.702500</td>
+      <td>24.000000</td>
+      <td>3.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>...</td>
+      <td>0.00000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>2001.000000</td>
+      <td>38295.000000</td>
+      <td>1083.00000</td>
+      <td>17529.440000</td>
+      <td>21.510000</td>
+      <td>42.000000</td>
+      <td>4.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>...</td>
+      <td>0.00000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>2008.000000</td>
+      <td>104676.750000</td>
+      <td>1668.00000</td>
+      <td>48687.880000</td>
+      <td>26.000000</td>
+      <td>68.000000</td>
+      <td>7.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>...</td>
+      <td>0.00000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>2013.000000</td>
+      <td>501412.000000</td>
+      <td>3240.00000</td>
+      <td>367778.000000</td>
+      <td>30.650000</td>
+      <td>100.000000</td>
+      <td>9.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>...</td>
+      <td>1.00000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+    </tr>
+  </tbody>
+</table>
+<p>8 rows × 118 columns</p>
+</div>
+</div>
+</div>
+<div id="ae72a76a-1924-4181-b4a8-27970d266021" class="cell code"
+data-execution_count="6">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Checking missing values of the dataset in each column</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>crop_data.isnull().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<pre><code>Area                             0
+Item                             0
+Year                             0
+hg/ha_yield                      0
+average_rain_fall_mm_per_year    0
+                                ..
+106                              0
+107                              0
+108                              0
+109                              0
+110                              0
+Length: 120, dtype: int64</code></pre>
+</div>
+</div>
+<div id="eb8a304e-b438-435d-a4ee-c2a89099c0cd" class="cell code"
+data-execution_count="10">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Displaying State Names present in the dataset</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>crop_data.Area.unique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="10">
+<pre><code>array([&#39;Albania&#39;, &#39;Algeria&#39;, &#39;Angola&#39;, &#39;Argentina&#39;, &#39;Armenia&#39;,
+       &#39;Australia&#39;, &#39;Austria&#39;, &#39;Azerbaijan&#39;, &#39;Bahamas&#39;, &#39;Bahrain&#39;,
+       &#39;Bangladesh&#39;, &#39;Belarus&#39;, &#39;Belgium&#39;, &#39;Botswana&#39;, &#39;Brazil&#39;,
+       &#39;Bulgaria&#39;, &#39;Burkina Faso&#39;, &#39;Burundi&#39;, &#39;Cameroon&#39;, &#39;Canada&#39;,
+       &#39;Central African Republic&#39;, &#39;Chile&#39;, &#39;Colombia&#39;, &#39;Croatia&#39;,
+       &#39;Denmark&#39;, &#39;Dominican Republic&#39;, &#39;Ecuador&#39;, &#39;Egypt&#39;, &#39;El Salvador&#39;,
+       &#39;Eritrea&#39;, &#39;Estonia&#39;, &#39;Finland&#39;, &#39;France&#39;, &#39;Germany&#39;, &#39;Ghana&#39;,
+       &#39;Greece&#39;, &#39;Guatemala&#39;, &#39;Guinea&#39;, &#39;Guyana&#39;, &#39;Haiti&#39;, &#39;Honduras&#39;,
+       &#39;Hungary&#39;, &#39;India&#39;, &#39;Indonesia&#39;, &#39;Iraq&#39;, &#39;Ireland&#39;, &#39;Italy&#39;,
+       &#39;Jamaica&#39;, &#39;Japan&#39;, &#39;Kazakhstan&#39;, &#39;Kenya&#39;, &#39;Latvia&#39;, &#39;Lebanon&#39;,
+       &#39;Lesotho&#39;, &#39;Libya&#39;, &#39;Lithuania&#39;, &#39;Madagascar&#39;, &#39;Malawi&#39;,
+       &#39;Malaysia&#39;, &#39;Mali&#39;, &#39;Mauritania&#39;, &#39;Mauritius&#39;, &#39;Mexico&#39;,
+       &#39;Montenegro&#39;, &#39;Morocco&#39;, &#39;Mozambique&#39;, &#39;Namibia&#39;, &#39;Nepal&#39;,
+       &#39;Netherlands&#39;, &#39;New Zealand&#39;, &#39;Nicaragua&#39;, &#39;Niger&#39;, &#39;Norway&#39;,
+       &#39;Pakistan&#39;, &#39;Papua New Guinea&#39;, &#39;Peru&#39;, &#39;Poland&#39;, &#39;Portugal&#39;,
+       &#39;Qatar&#39;, &#39;Romania&#39;, &#39;Rwanda&#39;, &#39;Saudi Arabia&#39;, &#39;Senegal&#39;,
+       &#39;Slovenia&#39;, &#39;South Africa&#39;, &#39;Spain&#39;, &#39;Sri Lanka&#39;, &#39;Sudan&#39;,
+       &#39;Suriname&#39;, &#39;Sweden&#39;, &#39;Switzerland&#39;, &#39;Tajikistan&#39;, &#39;Thailand&#39;,
+       &#39;Tunisia&#39;, &#39;Turkey&#39;, &#39;Uganda&#39;, &#39;Ukraine&#39;, &#39;United Kingdom&#39;,
+       &#39;Uruguay&#39;, &#39;Zambia&#39;, &#39;Zimbabwe&#39;], dtype=object)</code></pre>
+</div>
+</div>
+<div id="829c6511" class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> crop_data.drop([<span class="st">&#39;Area&#39;</span>], axis <span class="op">=</span> <span class="dv">1</span>)</span></code></pre></div>
+</div>
+<div id="5b045f7f" class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>data.corr()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="12">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Year</th>
+      <th>hg/ha_yield</th>
+      <th>average_rain_fall_mm_per_year</th>
+      <th>pesticides_tonnes</th>
+      <th>avg_temp</th>
+      <th>New_Area</th>
+      <th>New_Item</th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>...</th>
+      <th>101</th>
+      <th>102</th>
+      <th>103</th>
+      <th>104</th>
+      <th>105</th>
+      <th>106</th>
+      <th>107</th>
+      <th>108</th>
+      <th>109</th>
+      <th>110</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Year</th>
+      <td>1.000000</td>
+      <td>0.091630</td>
+      <td>-0.003798</td>
+      <td>0.140930</td>
+      <td>0.014409</td>
+      <td>0.003421</td>
+      <td>0.001465</td>
+      <td>-0.006957</td>
+      <td>-0.000400</td>
+      <td>0.007979</td>
+      <td>...</td>
+      <td>-0.003915</td>
+      <td>0.000554</td>
+      <td>-0.000746</td>
+      <td>0.002011</td>
+      <td>-0.003617</td>
+      <td>0.004503</td>
+      <td>0.002096</td>
+      <td>-0.002651</td>
+      <td>0.000024</td>
+      <td>0.000647</td>
+    </tr>
+    <tr>
+      <th>hg/ha_yield</th>
+      <td>0.091630</td>
+      <td>1.000000</td>
+      <td>0.000962</td>
+      <td>0.064085</td>
+      <td>-0.114777</td>
+      <td>0.006672</td>
+      <td>-0.225103</td>
+      <td>-0.013517</td>
+      <td>-0.013624</td>
+      <td>-0.037927</td>
+      <td>...</td>
+      <td>0.241480</td>
+      <td>-0.198230</td>
+      <td>0.048354</td>
+      <td>0.610305</td>
+      <td>-0.157857</td>
+      <td>-0.238777</td>
+      <td>-0.254849</td>
+      <td>0.166936</td>
+      <td>-0.219730</td>
+      <td>0.076761</td>
+    </tr>
+    <tr>
+      <th>average_rain_fall_mm_per_year</th>
+      <td>-0.003798</td>
+      <td>0.000962</td>
+      <td>1.000000</td>
+      <td>0.180984</td>
+      <td>0.313040</td>
+      <td>-0.233549</td>
+      <td>-0.062580</td>
+      <td>0.028071</td>
+      <td>-0.095077</td>
+      <td>-0.014972</td>
+      <td>...</td>
+      <td>0.130713</td>
+      <td>-0.029659</td>
+      <td>0.140728</td>
+      <td>-0.052759</td>
+      <td>0.019567</td>
+      <td>-0.064516</td>
+      <td>-0.019357</td>
+      <td>0.039515</td>
+      <td>-0.107450</td>
+      <td>0.121164</td>
+    </tr>
+    <tr>
+      <th>pesticides_tonnes</th>
+      <td>0.140930</td>
+      <td>0.064085</td>
+      <td>0.180984</td>
+      <td>1.000000</td>
+      <td>0.030946</td>
+      <td>-0.313573</td>
+      <td>0.048070</td>
+      <td>-0.036082</td>
+      <td>-0.034880</td>
+      <td>-0.047188</td>
+      <td>...</td>
+      <td>0.033106</td>
+      <td>-0.029719</td>
+      <td>-0.068887</td>
+      <td>-0.034692</td>
+      <td>-0.000829</td>
+      <td>-0.001937</td>
+      <td>0.022003</td>
+      <td>0.013354</td>
+      <td>-0.010770</td>
+      <td>0.102259</td>
+    </tr>
+    <tr>
+      <th>avg_temp</th>
+      <td>0.014409</td>
+      <td>-0.114777</td>
+      <td>0.313040</td>
+      <td>0.030946</td>
+      <td>1.000000</td>
+      <td>-0.045739</td>
+      <td>-0.078257</td>
+      <td>-0.039865</td>
+      <td>-0.030841</td>
+      <td>0.045632</td>
+      <td>...</td>
+      <td>0.162148</td>
+      <td>-0.040435</td>
+      <td>0.083091</td>
+      <td>-0.102716</td>
+      <td>0.042277</td>
+      <td>0.048906</td>
+      <td>-0.050173</td>
+      <td>0.087513</td>
+      <td>-0.151914</td>
+      <td>0.059980</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>106</th>
+      <td>0.004503</td>
+      <td>-0.238777</td>
+      <td>-0.064516</td>
+      <td>-0.001937</td>
+      <td>0.048906</td>
+      <td>0.009442</td>
+      <td>0.076307</td>
+      <td>-0.014796</td>
+      <td>0.017540</td>
+      <td>-0.006989</td>
+      <td>...</td>
+      <td>-0.097020</td>
+      <td>-0.143530</td>
+      <td>-0.049209</td>
+      <td>-0.146676</td>
+      <td>-0.128207</td>
+      <td>1.000000</td>
+      <td>-0.124633</td>
+      <td>-0.117242</td>
+      <td>-0.138103</td>
+      <td>-0.061058</td>
+    </tr>
+    <tr>
+      <th>107</th>
+      <td>0.002096</td>
+      <td>-0.254849</td>
+      <td>-0.019357</td>
+      <td>0.022003</td>
+      <td>-0.050173</td>
+      <td>0.003341</td>
+      <td>0.215069</td>
+      <td>0.022049</td>
+      <td>-0.022850</td>
+      <td>-0.008377</td>
+      <td>...</td>
+      <td>-0.100280</td>
+      <td>-0.148354</td>
+      <td>-0.050863</td>
+      <td>-0.151606</td>
+      <td>-0.132516</td>
+      <td>-0.124633</td>
+      <td>1.000000</td>
+      <td>-0.121182</td>
+      <td>-0.142744</td>
+      <td>-0.063110</td>
+    </tr>
+    <tr>
+      <th>108</th>
+      <td>-0.002651</td>
+      <td>0.166936</td>
+      <td>0.039515</td>
+      <td>0.013354</td>
+      <td>0.087513</td>
+      <td>-0.008469</td>
+      <td>0.330433</td>
+      <td>-0.020025</td>
+      <td>-0.021494</td>
+      <td>0.009560</td>
+      <td>...</td>
+      <td>-0.094333</td>
+      <td>-0.139555</td>
+      <td>-0.047846</td>
+      <td>-0.142615</td>
+      <td>-0.124657</td>
+      <td>-0.117242</td>
+      <td>-0.121182</td>
+      <td>1.000000</td>
+      <td>-0.134278</td>
+      <td>-0.059368</td>
+    </tr>
+    <tr>
+      <th>109</th>
+      <td>0.000024</td>
+      <td>-0.219730</td>
+      <td>-0.107450</td>
+      <td>-0.010770</td>
+      <td>-0.151914</td>
+      <td>0.030295</td>
+      <td>0.540143</td>
+      <td>0.016539</td>
+      <td>0.012085</td>
+      <td>0.000818</td>
+      <td>...</td>
+      <td>-0.111118</td>
+      <td>-0.164387</td>
+      <td>-0.056360</td>
+      <td>-0.167990</td>
+      <td>-0.146838</td>
+      <td>-0.138103</td>
+      <td>-0.142744</td>
+      <td>-0.134278</td>
+      <td>1.000000</td>
+      <td>-0.069931</td>
+    </tr>
+    <tr>
+      <th>110</th>
+      <td>0.000647</td>
+      <td>0.076761</td>
+      <td>0.121164</td>
+      <td>0.102259</td>
+      <td>0.059980</td>
+      <td>-0.078300</td>
+      <td>0.305533</td>
+      <td>-0.010429</td>
+      <td>-0.011194</td>
+      <td>-0.013438</td>
+      <td>...</td>
+      <td>-0.049128</td>
+      <td>-0.072679</td>
+      <td>-0.024918</td>
+      <td>-0.074272</td>
+      <td>-0.064920</td>
+      <td>-0.061058</td>
+      <td>-0.063110</td>
+      <td>-0.059368</td>
+      <td>-0.069931</td>
+      <td>1.000000</td>
+    </tr>
+  </tbody>
+</table>
+<p>118 rows × 118 columns</p>
+</div>
+</div>
+</div>
+<div id="eb7a2188" class="cell code" data-execution_count="31">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>sns.heatmap(data.corr(), annot <span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Correlation Matrix&#39;</span>)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4195afb54dff486dba9b78f225c2ef9c/d1761776844b5d593e12c8d5f05e78437b7d375a.png" /></p>
+</div>
+</div>
+<div id="4f8e07ac" class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>dummy <span class="op">=</span> pd.get_dummies(data)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>dummy</span></code></pre></div>
+<div class="output execute_result" data-execution_count="14">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Year</th>
+      <th>hg/ha_yield</th>
+      <th>average_rain_fall_mm_per_year</th>
+      <th>pesticides_tonnes</th>
+      <th>avg_temp</th>
+      <th>New_Area</th>
+      <th>New_Item</th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>...</th>
+      <th>Item_Cassava</th>
+      <th>Item_Maize</th>
+      <th>Item_Plantains and others</th>
+      <th>Item_Potatoes</th>
+      <th>Item_Rice, paddy</th>
+      <th>Item_Sorghum</th>
+      <th>Item_Soybeans</th>
+      <th>Item_Sweet potatoes</th>
+      <th>Item_Wheat</th>
+      <th>Item_Yams</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1990</td>
+      <td>36613</td>
+      <td>1485</td>
+      <td>121.00</td>
+      <td>16.37</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1990</td>
+      <td>66667</td>
+      <td>1485</td>
+      <td>121.00</td>
+      <td>16.37</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1990</td>
+      <td>23333</td>
+      <td>1485</td>
+      <td>121.00</td>
+      <td>16.37</td>
+      <td>0</td>
+      <td>4</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1990</td>
+      <td>12500</td>
+      <td>1485</td>
+      <td>121.00</td>
+      <td>16.37</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1990</td>
+      <td>7000</td>
+      <td>1485</td>
+      <td>121.00</td>
+      <td>16.37</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>28237</th>
+      <td>2013</td>
+      <td>22581</td>
+      <td>657</td>
+      <td>2550.07</td>
+      <td>19.76</td>
+      <td>100</td>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>28238</th>
+      <td>2013</td>
+      <td>3066</td>
+      <td>657</td>
+      <td>2550.07</td>
+      <td>19.76</td>
+      <td>100</td>
+      <td>5</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>28239</th>
+      <td>2013</td>
+      <td>13142</td>
+      <td>657</td>
+      <td>2550.07</td>
+      <td>19.76</td>
+      <td>100</td>
+      <td>6</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>28240</th>
+      <td>2013</td>
+      <td>22222</td>
+      <td>657</td>
+      <td>2550.07</td>
+      <td>19.76</td>
+      <td>100</td>
+      <td>7</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>28241</th>
+      <td>2013</td>
+      <td>22888</td>
+      <td>657</td>
+      <td>2550.07</td>
+      <td>19.76</td>
+      <td>100</td>
+      <td>8</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>28242 rows × 128 columns</p>
+</div>
+</div>
+</div>
+<div id="2b22321e" class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Splitting dataset into train and test dataset</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> dummy.drop([<span class="st">&quot;hg/ha_yield&quot;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> dummy[<span class="st">&quot;hg/ha_yield&quot;</span>]</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Splitting data set - 25% test dataset and 75% </span></span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>x_train,x_test,y_train,y_test <span class="op">=</span> train_test_split(x,y,test_size<span class="op">=</span><span class="fl">0.25</span>, random_state<span class="op">=</span><span class="dv">5</span>)</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;x_train :&quot;</span>,x_train.shape)</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;x_test :&quot;</span>,x_test.shape)</span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;y_train :&quot;</span>,y_train.shape)</span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;y_test :&quot;</span>,y_test.shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>x_train : (21181, 127)
+x_test : (7061, 127)
+y_train : (21181,)
+y_test : (7061,)
+</code></pre>
+</div>
+</div>
+<div id="98330d0b" class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(x_train)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(y_train)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>       Year  average_rain_fall_mm_per_year  pesticides_tonnes  avg_temp  \
+13634  2008                           1083           14485.33     27.45   
+24366  1995                            686             435.31     25.33   
+1341   2002                            534           26651.00     17.73   
+17393  2013                            250            8738.38      8.71   
+22371  2000                            494           27885.00     23.60   
+...     ...                            ...                ...       ...   
+3046   1995                           1761           92967.22     24.77   
+26301  1990                           1622           18849.00     27.96   
+20463  2011                            241              75.00     11.25   
+18638  2005                            282              14.84     28.13   
+2915   1993                           1761           75658.33     25.41   
+
+       New_Area  New_Item  0  1  2  3  ...  Item_Cassava  Item_Maize  \
+13634        42         7  0  0  0  0  ...             0           0   
+24366        82         4  0  0  0  0  ...             0           0   
+1341          5         6  0  0  0  0  ...             0           0   
+17393        49         4  0  0  0  0  ...             0           0   
+22371        73         6  0  0  0  0  ...             0           0   
+...         ...       ... .. .. .. ..  ...           ...         ...   
+3046         14         0  0  0  0  0  ...             1           0   
+26301        92         8  0  0  0  0  ...             0           0   
+20463        63         3  0  0  0  0  ...             0           0   
+18638        59         7  0  0  0  0  ...             0           0   
+2915         14         7  0  0  0  0  ...             0           0   
+
+       Item_Plantains and others  Item_Potatoes  Item_Rice, paddy  \
+13634                          0              0                 0   
+24366                          0              0                 1   
+1341                           0              0                 0   
+17393                          0              0                 1   
+22371                          0              0                 0   
+...                          ...            ...               ...   
+3046                           0              0                 0   
+26301                          0              0                 0   
+20463                          0              1                 0   
+18638                          0              0                 0   
+2915                           0              0                 0   
+
+       Item_Sorghum  Item_Soybeans  Item_Sweet potatoes  Item_Wheat  Item_Yams  
+13634             0              0                    1           0          0  
+24366             0              0                    0           0          0  
+1341              0              1                    0           0          0  
+17393             0              0                    0           0          0  
+22371             0              1                    0           0          0  
+...             ...            ...                  ...         ...        ...  
+3046              0              0                    0           0          0  
+26301             0              0                    0           1          0  
+20463             0              0                    0           0          0  
+18638             0              0                    1           0          0  
+2915              0              0                    1           0          0  
+
+[21181 rows x 127 columns]
+13634     88943
+24366     22497
+1341      19487
+17393     38500
+22371     12160
+          ...  
+3046     130631
+26301      6107
+20463    165000
+18638    159665
+2915     107920
+Name: hg/ha_yield, Length: 21181, dtype: int64
+</code></pre>
+</div>
+</div>
+<div id="7205b1d2" class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Applying linear regression and</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Training the Simple Linear Regression model .</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> LinearRegression()</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>model.fit(x_train,y_train)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="17">
+<pre><code>LinearRegression()</code></pre>
+</div>
+</div>
+<div id="6377752b" class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Predicting the test Results </span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>lr_predict <span class="op">=</span> model.predict(x_test)</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>lr_predict</span></code></pre></div>
+<div class="output execute_result" data-execution_count="18">
+<pre><code>array([  3333.8973999 ,  66148.52583313, -28234.55361938, ...,
+        45442.31518555,  18269.3039856 ,  -3420.2868042 ])</code></pre>
+</div>
+</div>
+<div id="64da122e" class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>model.score(x_test,y_test)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="19">
+<pre><code>0.7530296550930027</code></pre>
+</div>
+</div>
+<div id="e6f06d32" class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> r2_score</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>r <span class="op">=</span> r2_score(y_test,lr_predict)</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;R2 score : &quot;</span>,r)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>R2 score :  0.7530296550930027
+</code></pre>
+</div>
+</div>
+<div id="4e01d0e1" class="cell code" data-execution_count="29">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>plt.scatter(y_test,lr_predict)</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Actual&#39;</span>)</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Predicted&#39;</span>)</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Linear Regression&#39;</span>)</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4195afb54dff486dba9b78f225c2ef9c/7b87576d9d33623dc68324c990fb7113d2806d1a.png" /></p>
+</div>
+</div>
+<div id="f5d5be38" class="cell code" data-execution_count="32">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Random forest algorithm</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestRegressor</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> RandomForestRegressor(n_estimators <span class="op">=</span> <span class="dv">11</span>)</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>model.fit(x_train,y_train)</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>rf_predict <span class="op">=</span> model.predict(x_test)</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>rf_predict</span></code></pre></div>
+<div class="output execute_result" data-execution_count="32">
+<pre><code>array([14834.        , 37449.09090909, 17798.72727273, ...,
+       28508.        , 19317.45454545, 22493.        ])</code></pre>
+</div>
+</div>
+<div id="add17e9d" class="cell code" data-execution_count="33">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>model.score(x_test,y_test)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="33">
+<pre><code>0.9872842054671258</code></pre>
+</div>
+</div>
+<div id="630638ae" class="cell code" data-execution_count="34">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculating R2 score</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> r2_score</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>r1 <span class="op">=</span> r2_score(y_test,rf_predict)</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;R2 score : &quot;</span>,r1)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>R2 score :  0.9872842054671258
+</code></pre>
+</div>
+</div>
+<div id="c59ae1d0" class="cell code" data-execution_count="35">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculating Adj. R2 score: </span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>Adjr2_1 <span class="op">=</span> <span class="dv">1</span> <span class="op">-</span> (<span class="dv">1</span><span class="op">-</span>r)<span class="op">*</span>(<span class="bu">len</span>(y_test)<span class="op">-</span><span class="dv">1</span>)<span class="op">/</span>(<span class="bu">len</span>(y_test)<span class="op">-</span>x_test.shape[<span class="dv">1</span>]<span class="op">-</span><span class="dv">1</span>)</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Adj. R-Squared : </span><span class="sc">{}</span><span class="st">&quot;</span>.<span class="bu">format</span>(Adjr2_1))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Adj. R-Squared : 0.7485056057920956
+</code></pre>
+</div>
+</div>
+<div id="7e6ebcae" class="cell code" data-execution_count="38">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> sns.distplot(y_test, hist <span class="op">=</span> <span class="va">False</span>, color <span class="op">=</span> <span class="st">&quot;r&quot;</span>, label <span class="op">=</span> <span class="st">&quot;Actual value &quot;</span>)</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>sns.distplot(rf_predict, hist <span class="op">=</span> <span class="va">False</span>, color <span class="op">=</span> <span class="st">&quot;b&quot;</span>, label <span class="op">=</span> <span class="st">&quot;Predicted Values&quot;</span>, ax <span class="op">=</span> ax)</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Random Forest Regression&#39;</span>)</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>c:\Users\harsh\anaconda3\lib\site-packages\seaborn\distributions.py:2619: FutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `kdeplot` (an axes-level function for kernel density plots).
+  warnings.warn(msg, FutureWarning)
+c:\Users\harsh\anaconda3\lib\site-packages\seaborn\distributions.py:2619: FutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `kdeplot` (an axes-level function for kernel density plots).
+  warnings.warn(msg, FutureWarning)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_4195afb54dff486dba9b78f225c2ef9c/b7845f6c9760e755b8934dbe9769ccec1eae4693.png" /></p>
+</div>
+</div>
+<div id="f65e35b5" class="cell code" data-execution_count="46">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Decision Tree</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Training model </span></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.tree <span class="im">import</span> DecisionTreeRegressor</span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>regressor <span class="op">=</span> DecisionTreeRegressor(random_state <span class="op">=</span> <span class="dv">5</span>)</span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a>regressor.fit(x_train,y_train)</span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Predicting results</span></span>
+<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a>decisiontree_predict <span class="op">=</span> regressor.predict(x_test)</span>
+<span id="cb39-9"><a href="#cb39-9" aria-hidden="true" tabindex="-1"></a>decisiontree_predict</span></code></pre></div>
+<div class="output execute_result" data-execution_count="46">
+<pre><code>array([23000., 13593., 17143., ..., 28508., 36705., 22493.])</code></pre>
+</div>
+</div>
+<div id="51bab34b" class="cell code" data-execution_count="47">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>regressor.score(x_test,y_test)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="47">
+<pre><code>0.9270272999315756</code></pre>
+</div>
+</div>
+<div id="08c4e6b0" class="cell code" data-execution_count="48">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculating R2 score :</span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> r2_score</span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>r2 <span class="op">=</span> r2_score(y_test,decisiontree_predict)</span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;R2 score : &quot;</span>,r2)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>R2 score :  0.9270272999315756
+</code></pre>
+</div>
+</div>
+<div id="5b6b3607" class="cell code" data-execution_count="49">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculating Adj. R2 score: </span></span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>Adjr2_2 <span class="op">=</span> <span class="dv">1</span> <span class="op">-</span> (<span class="dv">1</span><span class="op">-</span>r)<span class="op">*</span>(<span class="bu">len</span>(y_test)<span class="op">-</span><span class="dv">1</span>)<span class="op">/</span>(<span class="bu">len</span>(y_test)<span class="op">-</span>x_test.shape[<span class="dv">1</span>]<span class="op">-</span><span class="dv">1</span>)</span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Adj. R-Squared : </span><span class="sc">{}</span><span class="st">&quot;</span>.<span class="bu">format</span>(Adjr2_2))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Adj. R-Squared : 0.7485056057920956
+</code></pre>
+</div>
+</div>
+<div id="3ab4e622" class="cell code" data-execution_count="50">
+<div class="sourceCode" id="cb47"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> sns.distplot(y_test, hist <span class="op">=</span> <span class="va">False</span>, color <span class="op">=</span> <span class="st">&quot;r&quot;</span>, label <span class="op">=</span> <span class="st">&quot;Actual value &quot;</span>)</span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>sns.distplot(decisiontree_predict, hist <span class="op">=</span> <span class="va">False</span>, color <span class="op">=</span> <span class="st">&quot;b&quot;</span>, label <span class="op">=</span> <span class="st">&quot;Predicted Values&quot;</span>, ax <span class="op">=</span> ax)</span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Decision Tree Regression&#39;</span>)</span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>c:\Users\harsh\anaconda3\lib\site-packages\seaborn\distributions.py:2619: FutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `kdeplot` (an axes-level function for kernel density plots).
+  warnings.warn(msg, FutureWarning)
+c:\Users\harsh\anaconda3\lib\site-packages\seaborn\distributions.py:2619: FutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `kdeplot` (an axes-level function for kernel density plots).
+  warnings.warn(msg, FutureWarning)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_4195afb54dff486dba9b78f225c2ef9c/32c7e1090fd26644f92cbe2e8070f1c83792f970.png" /></p>
+</div>
+</div>
+<div id="70c6c214" class="cell code" data-execution_count="56">
+<div class="sourceCode" id="cb49"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Cross-Validation</span></span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> cross_val_score</span>
+<span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a>accuracies <span class="op">=</span> cross_val_score(estimator <span class="op">=</span> model, X <span class="op">=</span> x_train, y<span class="op">=</span>y_train, cv <span class="op">=</span> <span class="dv">10</span>)</span></code></pre></div>
+</div>
+<div id="510b9c51" class="cell code" data-execution_count="57">
+<div class="sourceCode" id="cb50"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>a1 <span class="op">=</span> (accuracies.mean()<span class="op">*</span><span class="dv">100</span>)</span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>b1 <span class="op">=</span> (accuracies.std()<span class="op">*</span><span class="dv">100</span>)</span></code></pre></div>
+</div>
+<div id="d4ff526c" class="cell code" data-execution_count="58">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Mean Accuracy and SD of 10 fold results</span></span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Accuracy : </span><span class="sc">{:.2f}</span><span class="st">%&quot;</span>.<span class="bu">format</span> (accuracies.mean()<span class="op">*</span><span class="dv">100</span>))</span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Standard Deviation : </span><span class="sc">{:.2f}</span><span class="st">%&quot;</span>.<span class="bu">format</span>(accuracies.std()<span class="op">*</span><span class="dv">100</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Accuracy : 98.47%
+Standard Deviation : 0.33%
+</code></pre>
+</div>
+</div>
+<div id="f7141326" class="cell code" data-execution_count="59">
+<div class="sourceCode" id="cb53"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Cross-Validation</span></span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> cross_val_score</span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a>accuracies <span class="op">=</span> cross_val_score(estimator <span class="op">=</span> regressor, X <span class="op">=</span> x_train, y<span class="op">=</span>y_train)</span></code></pre></div>
+</div>
+<div id="c6f06b15" class="cell code" data-execution_count="60">
+<div class="sourceCode" id="cb54"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>a2 <span class="op">=</span> (accuracies.mean()<span class="op">*</span><span class="dv">100</span>)</span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>b2 <span class="op">=</span> (accuracies.std()<span class="op">*</span><span class="dv">100</span>)</span></code></pre></div>
+</div>
+<div id="d973b043" class="cell code" data-execution_count="61">
+<div class="sourceCode" id="cb55"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Accuracy : </span><span class="sc">{:.2f}</span><span class="st">%&quot;</span>.<span class="bu">format</span> (accuracies.mean()<span class="op">*</span><span class="dv">100</span>))</span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Standard Deviation : </span><span class="sc">{:.2f}</span><span class="st">%&quot;</span>.<span class="bu">format</span>(accuracies.std()<span class="op">*</span><span class="dv">100</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Accuracy : 97.47%
+Standard Deviation : 0.40%
+</code></pre>
+</div>
+</div>
+<div id="b44c1f50" class="cell code" data-execution_count="62">
+<div class="sourceCode" id="cb57"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a><span class="co"># create a dataset</span></span>
+<span id="cb57-5"><a href="#cb57-5" aria-hidden="true" tabindex="-1"></a>Algorithms <span class="op">=</span> [<span class="st">&#39;Random Forest&#39;</span>, <span class="st">&#39;Decision-tree&#39;</span>]</span>
+<span id="cb57-6"><a href="#cb57-6" aria-hidden="true" tabindex="-1"></a>Accuracy <span class="op">=</span> [a1, a2]</span>
+<span id="cb57-7"><a href="#cb57-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-8"><a href="#cb57-8" aria-hidden="true" tabindex="-1"></a>x_pos <span class="op">=</span> np.arange(<span class="bu">len</span>(Accuracy))</span>
+<span id="cb57-9"><a href="#cb57-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-10"><a href="#cb57-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create bars with different colors</span></span>
+<span id="cb57-11"><a href="#cb57-11" aria-hidden="true" tabindex="-1"></a>plt.bar(x_pos, Accuracy, color<span class="op">=</span>[<span class="st">&#39;#488AC7&#39;</span>,<span class="st">&#39;#ff8c00&#39;</span>])</span>
+<span id="cb57-12"><a href="#cb57-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-13"><a href="#cb57-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Create names on the x-axis</span></span>
+<span id="cb57-14"><a href="#cb57-14" aria-hidden="true" tabindex="-1"></a>plt.xticks(x_pos, Algorithms)</span>
+<span id="cb57-15"><a href="#cb57-15" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Accuracy(in %)&#39;</span>)</span>
+<span id="cb57-16"><a href="#cb57-16" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Machine Learning Regression Techniques&#39;</span>)</span>
+<span id="cb57-17"><a href="#cb57-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-18"><a href="#cb57-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Show graph</span></span>
+<span id="cb57-19"><a href="#cb57-19" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4195afb54dff486dba9b78f225c2ef9c/6fc8ec8152dd2db3fef3c1d6f2045459e759744c.png" /></p>
+</div>
+</div>
+<div id="623b165c" class="cell code" data-execution_count="63">
+<div class="sourceCode" id="cb58"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create a dataset</span></span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a>Algorithms <span class="op">=</span> [<span class="st">&#39;Random Forest&#39;</span>, <span class="st">&#39;Decision-tree&#39;</span>]</span>
+<span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a>Accuracy <span class="op">=</span> [b1, b2]</span>
+<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-5"><a href="#cb58-5" aria-hidden="true" tabindex="-1"></a>x_pos <span class="op">=</span> np.arange(<span class="bu">len</span>(Accuracy))</span>
+<span id="cb58-6"><a href="#cb58-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-7"><a href="#cb58-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create bars with different colors</span></span>
+<span id="cb58-8"><a href="#cb58-8" aria-hidden="true" tabindex="-1"></a>plt.bar(x_pos, Accuracy, color<span class="op">=</span>[<span class="st">&#39;#488AC7&#39;</span>,<span class="st">&#39;#ff8c00&#39;</span>])</span>
+<span id="cb58-9"><a href="#cb58-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-10"><a href="#cb58-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create names on the x-axis</span></span>
+<span id="cb58-11"><a href="#cb58-11" aria-hidden="true" tabindex="-1"></a>plt.xticks(x_pos, Algorithms)</span>
+<span id="cb58-12"><a href="#cb58-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Standard Deviation(in %)&#39;</span>)</span>
+<span id="cb58-13"><a href="#cb58-13" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Machine Learning Regression Techniques&#39;</span>)</span>
+<span id="cb58-14"><a href="#cb58-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-15"><a href="#cb58-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Show graph</span></span>
+<span id="cb58-16"><a href="#cb58-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb58-17"><a href="#cb58-17" aria-hidden="true" tabindex="-1"></a>plt.savefig(<span class="st">&#39;SD.png&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4195afb54dff486dba9b78f225c2ef9c/22fe71c86f49c961c5038984a8aee42320485a22.png" /></p>
+</div>
+</div>
+<div id="0a156a4d" class="cell code" data-execution_count="64">
+<div class="sourceCode" id="cb59"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create a dataset</span></span>
+<span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a>Algorithms <span class="op">=</span> [<span class="st">&#39;Random Forest&#39;</span>, <span class="st">&#39;Decision-tree&#39;</span>]</span>
+<span id="cb59-3"><a href="#cb59-3" aria-hidden="true" tabindex="-1"></a>Accuracy <span class="op">=</span> [Adjr2_1, Adjr2_2]</span>
+<span id="cb59-4"><a href="#cb59-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb59-5"><a href="#cb59-5" aria-hidden="true" tabindex="-1"></a>x_pos <span class="op">=</span> np.arange(<span class="bu">len</span>(Accuracy))</span>
+<span id="cb59-6"><a href="#cb59-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb59-7"><a href="#cb59-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create bars with different colors</span></span>
+<span id="cb59-8"><a href="#cb59-8" aria-hidden="true" tabindex="-1"></a>plt.bar(x_pos, Accuracy, color<span class="op">=</span>[<span class="st">&#39;#488AC7&#39;</span>,<span class="st">&#39;#ff8c00&#39;</span>])</span>
+<span id="cb59-9"><a href="#cb59-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb59-10"><a href="#cb59-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create names on the x-axis</span></span>
+<span id="cb59-11"><a href="#cb59-11" aria-hidden="true" tabindex="-1"></a>plt.xticks(x_pos, Algorithms)</span>
+<span id="cb59-12"><a href="#cb59-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Standard Deviation(in %)&#39;</span>)</span>
+<span id="cb59-13"><a href="#cb59-13" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Machine Learning Regression Techniques&#39;</span>)</span>
+<span id="cb59-14"><a href="#cb59-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb59-15"><a href="#cb59-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Show graph</span></span>
+<span id="cb59-16"><a href="#cb59-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb59-17"><a href="#cb59-17" aria-hidden="true" tabindex="-1"></a>plt.savefig(<span class="st">&#39;SD.png&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4195afb54dff486dba9b78f225c2ef9c/208d52c6490da48ef58b9e1c339181c52ee401f3.png" /></p>
+</div>
+</div>
+<div id="c9c7d3fd" class="cell code" data-execution_count="65">
+<div class="sourceCode" id="cb60"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create a dataset</span></span>
+<span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a>Algorithms <span class="op">=</span> [<span class="st">&#39;Random Forest&#39;</span>, <span class="st">&#39;Decision-tree&#39;</span>]</span>
+<span id="cb60-3"><a href="#cb60-3" aria-hidden="true" tabindex="-1"></a>Accuracy <span class="op">=</span> [r1, r2]</span>
+<span id="cb60-4"><a href="#cb60-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-5"><a href="#cb60-5" aria-hidden="true" tabindex="-1"></a>x_pos <span class="op">=</span> np.arange(<span class="bu">len</span>(Accuracy))</span>
+<span id="cb60-6"><a href="#cb60-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-7"><a href="#cb60-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create bars with different colors</span></span>
+<span id="cb60-8"><a href="#cb60-8" aria-hidden="true" tabindex="-1"></a>plt.bar(x_pos, Accuracy, color<span class="op">=</span>[<span class="st">&#39;#488AC7&#39;</span>,<span class="st">&#39;#ff8c00&#39;</span>])</span>
+<span id="cb60-9"><a href="#cb60-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-10"><a href="#cb60-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create names on the x-axis</span></span>
+<span id="cb60-11"><a href="#cb60-11" aria-hidden="true" tabindex="-1"></a>plt.xticks(x_pos, Algorithms)</span>
+<span id="cb60-12"><a href="#cb60-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;R-Squared Score&#39;</span>)</span>
+<span id="cb60-13"><a href="#cb60-13" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Machine Learning Regression Techniques&#39;</span>)</span>
+<span id="cb60-14"><a href="#cb60-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-15"><a href="#cb60-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Show graph</span></span>
+<span id="cb60-16"><a href="#cb60-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb60-17"><a href="#cb60-17" aria-hidden="true" tabindex="-1"></a>plt.savefig(<span class="st">&#39;SD.png&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4195afb54dff486dba9b78f225c2ef9c/a258ba28cd024a2a9544cf5a761d774c05d7252f.png" /></p>
+</div>
+</div>
+<div id="ad6776e3" class="cell code" data-execution_count="66">
+<div class="sourceCode" id="cb61"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create a dataset</span></span>
+<span id="cb61-2"><a href="#cb61-2" aria-hidden="true" tabindex="-1"></a>Algorithms <span class="op">=</span> [<span class="st">&#39;Random Forest&#39;</span>, <span class="st">&#39;Decision-tree&#39;</span>]</span>
+<span id="cb61-3"><a href="#cb61-3" aria-hidden="true" tabindex="-1"></a>Accuracy <span class="op">=</span> [Adjr2_1, Adjr2_2]</span>
+<span id="cb61-4"><a href="#cb61-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb61-5"><a href="#cb61-5" aria-hidden="true" tabindex="-1"></a>x_pos <span class="op">=</span> np.arange(<span class="bu">len</span>(Accuracy))</span>
+<span id="cb61-6"><a href="#cb61-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb61-7"><a href="#cb61-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create bars with different colors</span></span>
+<span id="cb61-8"><a href="#cb61-8" aria-hidden="true" tabindex="-1"></a>plt.bar(x_pos, Accuracy, color<span class="op">=</span>[<span class="st">&#39;#488AC7&#39;</span>,<span class="st">&#39;#ff8c00&#39;</span>])</span>
+<span id="cb61-9"><a href="#cb61-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb61-10"><a href="#cb61-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create names on the x-axis</span></span>
+<span id="cb61-11"><a href="#cb61-11" aria-hidden="true" tabindex="-1"></a>plt.xticks(x_pos, Algorithms)</span>
+<span id="cb61-12"><a href="#cb61-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Adjusted R-Squared Score&#39;</span>)</span>
+<span id="cb61-13"><a href="#cb61-13" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Machine Learning Regression Techniques&#39;</span>)</span>
+<span id="cb61-14"><a href="#cb61-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb61-15"><a href="#cb61-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Show graph</span></span>
+<span id="cb61-16"><a href="#cb61-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb61-17"><a href="#cb61-17" aria-hidden="true" tabindex="-1"></a>plt.savefig(<span class="st">&#39;SD.png&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4195afb54dff486dba9b78f225c2ef9c/101d4acc926f090d4f36b6bcc665f7d1ce61ea16.png" /></p>
+</div>
+</div>
+<div id="5d4615f6" class="cell code" data-execution_count="67">
+<div class="sourceCode" id="cb62"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create a dataset</span></span>
+<span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a>Algorithms <span class="op">=</span> [<span class="st">&#39;LinearRegression&#39;</span>, <span class="st">&#39;Decision-tree&#39;</span>]</span>
+<span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a>Accuracy <span class="op">=</span> [a1, a2]</span>
+<span id="cb62-4"><a href="#cb62-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-5"><a href="#cb62-5" aria-hidden="true" tabindex="-1"></a>x_pos <span class="op">=</span> np.arange(<span class="bu">len</span>(Accuracy))</span>
+<span id="cb62-6"><a href="#cb62-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-7"><a href="#cb62-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create bars with different colors</span></span>
+<span id="cb62-8"><a href="#cb62-8" aria-hidden="true" tabindex="-1"></a>plt.bar(x_pos, Accuracy, color<span class="op">=</span>[<span class="st">&#39;#488AC7&#39;</span>,<span class="st">&#39;#ff8c00&#39;</span>])</span>
+<span id="cb62-9"><a href="#cb62-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-10"><a href="#cb62-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create names on the x-axis</span></span>
+<span id="cb62-11"><a href="#cb62-11" aria-hidden="true" tabindex="-1"></a>plt.xticks(x_pos, Algorithms)</span>
+<span id="cb62-12"><a href="#cb62-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Accuracy(in %)&#39;</span>)</span>
+<span id="cb62-13"><a href="#cb62-13" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Machine Learning Regression Techniques&#39;</span>)</span>
+<span id="cb62-14"><a href="#cb62-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-15"><a href="#cb62-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Show graph</span></span>
+<span id="cb62-16"><a href="#cb62-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4195afb54dff486dba9b78f225c2ef9c/7f43461660774fde89f96c761e362518aa835c95.png" /></p>
+</div>
+</div>
+<div id="edfac625" class="cell code" data-execution_count="68">
+<div class="sourceCode" id="cb63"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create a dataset</span></span>
+<span id="cb63-2"><a href="#cb63-2" aria-hidden="true" tabindex="-1"></a>Algorithms <span class="op">=</span> [<span class="st">&#39;Random Forest&#39;</span>, <span class="st">&#39;LinearRegression&#39;</span>]</span>
+<span id="cb63-3"><a href="#cb63-3" aria-hidden="true" tabindex="-1"></a>Accuracy <span class="op">=</span> [a1, a2]</span>
+<span id="cb63-4"><a href="#cb63-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb63-5"><a href="#cb63-5" aria-hidden="true" tabindex="-1"></a>x_pos <span class="op">=</span> np.arange(<span class="bu">len</span>(Accuracy))</span>
+<span id="cb63-6"><a href="#cb63-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb63-7"><a href="#cb63-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create bars with different colors</span></span>
+<span id="cb63-8"><a href="#cb63-8" aria-hidden="true" tabindex="-1"></a>plt.bar(x_pos, Accuracy, color<span class="op">=</span>[<span class="st">&#39;#488AC7&#39;</span>,<span class="st">&#39;#ff8c00&#39;</span>])</span>
+<span id="cb63-9"><a href="#cb63-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb63-10"><a href="#cb63-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create names on the x-axis</span></span>
+<span id="cb63-11"><a href="#cb63-11" aria-hidden="true" tabindex="-1"></a>plt.xticks(x_pos, Algorithms)</span>
+<span id="cb63-12"><a href="#cb63-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Accuracy(in %)&#39;</span>)</span>
+<span id="cb63-13"><a href="#cb63-13" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Machine Learning Regression Techniques&#39;</span>)</span>
+<span id="cb63-14"><a href="#cb63-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb63-15"><a href="#cb63-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Show graph</span></span>
+<span id="cb63-16"><a href="#cb63-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4195afb54dff486dba9b78f225c2ef9c/390b6cb9d0169a14051692e708d95a0a8fa86b2a.png" /></p>
+</div>
+</div>
+<div id="6cf2c973" class="cell code" data-execution_count="69">
+<div class="sourceCode" id="cb64"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create a dataset</span></span>
+<span id="cb64-2"><a href="#cb64-2" aria-hidden="true" tabindex="-1"></a>Algorithms <span class="op">=</span> [<span class="st">&#39;LinearRegression&#39;</span>, <span class="st">&#39;Decision-tree&#39;</span>]</span>
+<span id="cb64-3"><a href="#cb64-3" aria-hidden="true" tabindex="-1"></a>Accuracy <span class="op">=</span> [b1, b2]</span>
+<span id="cb64-4"><a href="#cb64-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-5"><a href="#cb64-5" aria-hidden="true" tabindex="-1"></a>x_pos <span class="op">=</span> np.arange(<span class="bu">len</span>(Accuracy))</span>
+<span id="cb64-6"><a href="#cb64-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-7"><a href="#cb64-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create bars with different colors</span></span>
+<span id="cb64-8"><a href="#cb64-8" aria-hidden="true" tabindex="-1"></a>plt.bar(x_pos, Accuracy, color<span class="op">=</span>[<span class="st">&#39;#488AC7&#39;</span>,<span class="st">&#39;#ff8c00&#39;</span>])</span>
+<span id="cb64-9"><a href="#cb64-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-10"><a href="#cb64-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create names on the x-axis</span></span>
+<span id="cb64-11"><a href="#cb64-11" aria-hidden="true" tabindex="-1"></a>plt.xticks(x_pos, Algorithms)</span>
+<span id="cb64-12"><a href="#cb64-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Standard Deviation(in %)&#39;</span>)</span>
+<span id="cb64-13"><a href="#cb64-13" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Machine Learning Regression Techniques&#39;</span>)</span>
+<span id="cb64-14"><a href="#cb64-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-15"><a href="#cb64-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Show graph</span></span>
+<span id="cb64-16"><a href="#cb64-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb64-17"><a href="#cb64-17" aria-hidden="true" tabindex="-1"></a>plt.savefig(<span class="st">&#39;SD.png&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4195afb54dff486dba9b78f225c2ef9c/64f7532f7bb211cfff9b627911bb8d4939fd8fb8.png" /></p>
+</div>
+</div>
+<div id="d8638709" class="cell code" data-execution_count="70">
+<div class="sourceCode" id="cb65"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create a dataset</span></span>
+<span id="cb65-2"><a href="#cb65-2" aria-hidden="true" tabindex="-1"></a>Algorithms <span class="op">=</span> [<span class="st">&#39;Random Forest&#39;</span>, <span class="st">&#39;LinearRegression&#39;</span>]</span>
+<span id="cb65-3"><a href="#cb65-3" aria-hidden="true" tabindex="-1"></a>Accuracy <span class="op">=</span> [b1, b2]</span>
+<span id="cb65-4"><a href="#cb65-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb65-5"><a href="#cb65-5" aria-hidden="true" tabindex="-1"></a>x_pos <span class="op">=</span> np.arange(<span class="bu">len</span>(Accuracy))</span>
+<span id="cb65-6"><a href="#cb65-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb65-7"><a href="#cb65-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create bars with different colors</span></span>
+<span id="cb65-8"><a href="#cb65-8" aria-hidden="true" tabindex="-1"></a>plt.bar(x_pos, Accuracy, color<span class="op">=</span>[<span class="st">&#39;#488AC7&#39;</span>,<span class="st">&#39;#ff8c00&#39;</span>])</span>
+<span id="cb65-9"><a href="#cb65-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb65-10"><a href="#cb65-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create names on the x-axis</span></span>
+<span id="cb65-11"><a href="#cb65-11" aria-hidden="true" tabindex="-1"></a>plt.xticks(x_pos, Algorithms)</span>
+<span id="cb65-12"><a href="#cb65-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Standard Deviation(in %)&#39;</span>)</span>
+<span id="cb65-13"><a href="#cb65-13" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Machine Learning Regression Techniques&#39;</span>)</span>
+<span id="cb65-14"><a href="#cb65-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb65-15"><a href="#cb65-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Show graph</span></span>
+<span id="cb65-16"><a href="#cb65-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb65-17"><a href="#cb65-17" aria-hidden="true" tabindex="-1"></a>plt.savefig(<span class="st">&#39;SD.png&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4195afb54dff486dba9b78f225c2ef9c/7f4d418674b8a3e1dc9011820d0f8d788b1ca6e0.png" /></p>
+</div>
+</div>
+<div id="c7a18167" class="cell code">
+<div class="sourceCode" id="cb66"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>

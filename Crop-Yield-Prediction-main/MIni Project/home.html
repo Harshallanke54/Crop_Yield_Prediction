@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+</style>	
+
+	<title>Crop Yield Prediction</title>
+	<title>Background Images</title>
+
+</head>
+<body background="pm2.jpg">
+	
+	<center>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	<h1>Crop Yield Prediction</h1>
+	<form method="POST" action="/predict">
+		<label for="temperature">Temperature (°C):</label><br>
+		<input type="number" id="temperature" name="temperature"><br>
+		<label for="rainfall">Rainfall (mm):</label><br>
+		<input type="number" id="rainfall" name="rainfall"><br>
+		<label for="Area">Area (%):</label><br>
+		<input type="number" id="Area" name="Area"><br>
+		<label for="crop_type">Crop Type:</label><br>
+		<select id="crop_type" name="crop_type">
+			<option value="1">Wheat</option>
+			<option value="2">Rice,paddy</option>
+			<option value="3">Maize</option>
+			<option value="4">Soybean</option>
+			<option value="5">Yams</option>
+			<option value="6">Potato</option>
+			<option value="7">Sorghum</option>
+			<option value="8">Cassava</option>
+			<option value="9">SweetPotato</option>
+			<option value="10">Plantains/others</option>
+			<a href="4195afb54dff486dba9b78f225c2ef9c.html">
+			</a>
+
+		</select><br><br>
+		<input type="submit" value="Predict">
+	</form>
+</body>
+</html>
